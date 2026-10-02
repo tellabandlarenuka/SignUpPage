@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7fb;
+    font-family: Arial, sans-serif;
+}
+.signupform{
+
+    width: 450px;
+    padding: 20px 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+.signupform h1{
+    text-align: center;
+    margin-bottom: 14px;
+    font-size: 28px;
+    color: #172033;
+}
+.signupform label{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #344054;
+    margin-bottom: 6px;
+}
+.signupform input{
+    width: 100%;
+    height: 44px;
+    margin-bottom: 14px;
+    padding-left: 10px;
+    border: 1px solid #4f46e5;
+    border-radius: 7px;
+
+    background-color: #ffffff;
+
+    font-size: 14px;
+
+    outline: none;
+}
+.signupform input:focus{
+    border-color: black;
+}
+.signupform button{
+   width: 100%;
+   height: 44px;
+    border: none;
+    border-radius: 7px;
+
+    background-color: #4f46e5;
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 4px;
+    cursor: pointer;
+    border: none;
+}
+.signupform button:hover {
+    background-color: #4338ca;
+}
+.signupform p{
+  margin-top: 10px;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    color: black;
+}
+.signupform p a {
+    color: #4f46e5;
+   
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.signupform p a:hover {
+    text-decoration: underline;
+}
